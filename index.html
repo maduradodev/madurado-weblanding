@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Madurado Developers</title>
+    
+    <meta property="og:title" content="Madurado Developers" />
+    <meta name="author" content="Madurado Developers" />
+    <meta name="description" content="Madurado Developers" />
+    <meta property="og:description" content="Uma equipe de desenvolvedores baseada em São Paulo - SP." />
+    <meta name="keywords" content="web,design,html,css,html5,development">
+    <meta property="og:url" content="https://madurado.tech/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://madurado.tech/img/prev.jpg" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:image:alt" content="Logo da Madurado Developers." />
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@madurado.dev">
+    <meta name="twitter:creator" content="@madurado.dev">
+    <meta name="twitter:url" content="https://madurado.tech/">
+    <meta name="twitter:title" content="Madurado Developers">
+    <meta name="twitter:description" content="Uma equipe de desenvolvedores baseada em São Paulo - SP.">
+    <meta name="twitter:image" content="https://madurado.tech/img/prev.jpg">
+    <meta name="twitter:image:alt" content="Logo da Madurado Developers.">
+
+
+    <meta name="msapplication-TileColor" content="#93f3a3">
+    <meta name="msapplication-config" content="https://madurado.tech/img/browserconfig.xml">
+    <meta name="theme-color" content="#93f3a3">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://madurado.tech/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://madurado.tech/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://madurado.tech/img/favicon-16x16.png">
+    <link rel="manifest" href="https://madurado.tech/img/site.webmanifest">
+    <link rel="mask-icon" href="https://madurado.tech/img/safari-pinned-tab.svg" color="#93f3a3">
+    <link rel="shortcut icon" href="https://madurado.tech/img/favicon.ico">
+
+    
+
+    <script type="application/ld+json">
+        {
+            "@context" : "http://schema.org",
+            "@type" : "LocalBusiness",
+            "name" : "Madurado Developers",
+            "image" : "https://madurado.tech/img/madurado.png",
+            "email" : "madurado.dev@gmail.com",
+            "url" : "https://madurado.tech/",
+            "address" : {
+              "@type" : "PostalAddress",
+              "addressRegion" : "São Paulo - SP"
+            }
+          }
+        </script>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYF8T7E8PD"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-PYF8T7E8PD');
+        </script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="columns is-vcentered">
+
+            <div class="column has-text-centered">
+
+                <div class="image is-inline-block">
+                    <img style="width:20rem;height:18rem;" src="img/madurado.webp" alt="Logo da Madurado Developers">
+                </div>
+
+            </div>
+
+            <div class="column has-text-centered">
+
+                    <div class="text">
+
+                        <h3 class="label is-size-5" style="font-weight:300;">Oi! Somos a</p>
+                        <h1 class="label is-size-1" style="font-weight:800;line-height:3rem;" itemprop="name">Madurado <br>Developers</p>
+                        <h2 class="label is-size-5" style="font-weight:300;" itemprop="description">Uma equipe de <br>desenvolvedores baseada <br>em São Paulo - SP.</p>
+                       
+                    </div>        
+
+                    <div style="margin-top:1rem;"> 
+
+                        <a href="about.html" class="transition">
+                            <button class="button is-normal is-responsive">SOBRE NÓS</button>
+                        </a>
+
+                        <a href="contact.html" class="transition">
+                            <button class="button is-normal is-responsive">CONTATO</button>
+                        </a>
+                        
+                        <p class="label is-size-7" style="font-weight:400;">SITE EM DESENVOLVIMENTO</p>  
+
+
+                    </div>
+
+            </div>
+
+     </div>    
+       
+</div>
+
+</body>
+
+<link rel="stylesheet" href="css/bulma.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com">
+<link href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap" rel="stylesheet">
+<script type="text/javascript" src="src/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+     
+        $("body").fadeIn(300);
+     
+        $("a.transition").click(function(event){
+            event.preventDefault();
+            linkLocation = this.href;
+            $("body").fadeOut(300, redirectPage);      
+        });
+             
+        function redirectPage() {
+            window.location = linkLocation;
+        }
+    });
+    </script>
+
+</html>

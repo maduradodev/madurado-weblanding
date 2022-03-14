@@ -1,0 +1,35 @@
+
+html{
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background-image: url('../img/back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body{
+  font-family: 'Epilogue', sans-serif;
+  display: flex;
+  line-height:1.5rem;
+}
+
+.button {
+  font-family: 'Epilogue', sans-serif;
+  margin-top:0.5rem;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 38px;
+  background-color: transparent;
+  color:#000000;
+}
+
+@media only screen and (min-width: 768px) {
+  body{
+    margin-top:12rem;
+  }
+  .cardcontainer {
+    margin-left:9rem;
+  }
+  
+}
