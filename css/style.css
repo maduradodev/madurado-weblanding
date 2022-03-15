@@ -25,7 +25,6 @@ body{
 }
 
 .cardcontainer {
-  position: relative; 
   display: flex; 
   background-color:rgb(255, 255, 255, 0.5); 
   border-radius:1rem;
@@ -57,6 +56,13 @@ body{
   }
   .cardcontainer {
     margin-left:9rem;
+  }
+  
+}
+
+@media only screen and (max-width: 769px) {
+  .cardcontainer {
+    width:100%;
   }
   
 }
