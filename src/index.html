@@ -51,47 +51,73 @@
           }
         </script>
 
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYF8T7E8PD"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-        
-          gtag('config', 'G-PYF8T7E8PD');
-        </script>
-
+    <script type="module" src="./js/index.js"></script>
     
 </head>
 <body>
-  <script type="module" src="./js/index.js"></script>
 
-  <section class="container mx-auto w-80 pl-12  md:justify-center md:flex md:w-auto md:pt-60">
+    <nav class="backdrop-blur-sm bg-black/10 border-gray-200 p-2 fixed w-full z-10 top-0 ">
+        <div class="container flex flex-wrap justify-between items-center mx-auto">
+          <a href="index.html" class="flex items-center">
+              <img src="./img/madurado.webp" class="ml-36 sm:ml-12 h-16 sm:h-10"/>
+          </a>
+            <h3 class="text-sm font-epilogue font-light block ml-20 md:mr-96">WEBSITE EM DESENVOLVIMENTO</h3>
+          <div class="w-full md:block md:w-auto">
+            <ul class="flex mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                
+                
+
+                <li>
+                    <a href="home.html" class="block py-2 pr-4 pl-3 md:pr-1 md:pl-1">
+                        <button class="bg-transparent border-2 border-black hover:border-black w-24 h-9 text-black font-epilogue font-light rounded-3xl">HOME</button>
+                    </a>
+                </li>
+    
+                <li>
+                     <a href="about.html" class="block py-2 pr-4 pl-3 md:pr-1 md:pl-1" aria-current="SOBRE">
+                        <button class="bg-transparent border-2 border-white hover:border-black w-24 h-9 text-black font-epilogue font-light rounded-3xl">SOBRE</button>
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="contact.html" class="block py-2 pr-4 pl-3 md:pr-1 md:pl-1">
+                       <button class="bg-transparent border-2 border-white hover:border-black w-24 h-9 text-black font-epilogue font-light rounded-3xl">CONTATO</button>
+                   </a>
+               </li>
+    
+                
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="container mx-auto w-auto md:justify-center mt-44 md:flex md:mt-72">
 
         <div>
-            <img class="max-w-screen-sm md:pr-96" src="img/madurado.webp" alt="Logo da Madurado Developers">
+            <img class="invisible md:visible max-w-screen-sm md:pr-96" src="img/madurado.webp" alt="Logo da Madurado Developers">
         </div>
 
-        <div class="text-center pr-12">
+        <div class="text-center mr-12">
 
-            <h3 class="text-base font-epilogue font-light py-1">Oi! Nós somos a</h3>
-            <h1 class="text-4xl font-epilogue font-extrabold leading-none space-y-1.5 py-1" itemprop="name">Madurado <br>Developers</h1>
-            <h2 class="text-base font-epilogue font-light py-1 pb-2" itemprop="description">Uma equipe de <br>desenvolvedores baseada <br>em São Paulo - SP.</h2>
-        
-            <a href="about.html" class="py-1">
-                <button class="bg-transparent border-2 border-black text-black font-epilogue font-light py-1 px-4 rounded-3xl">SOBRE NÓS</button>
-            </a>
-    
-            <a href="contact.html" class="py-1">
-                    <button class="bg-transparent border-2 border-black text-black font-epilogue font-light py-1 px-4 rounded-3xl">CONTATO</button>
-            </a>
+            <h3 class="text-base text-center font-epilogue font-light py-1">Oi! Nós somos a</h3>
+            <h1 class="text-4xl text-center font-epilogue font-extrabold leading-none space-y-1.5 py-1" itemprop="name">Madurado <br>Developers</h1>
+            <h2 class="text-base text-center font-epilogue font-light py-1 pb-2" itemprop="description">Uma equipe de <br>desenvolvedores baseada <br>em São Paulo - SP.</h2>
 
         </div>
 
-
-    </section>
+    </section>  
 
 </body>
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PYF8T7E8PD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-PYF8T7E8PD');
+</script>
 <link href="https://fonts.googleapis.com">
 <link href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap" rel="stylesheet">

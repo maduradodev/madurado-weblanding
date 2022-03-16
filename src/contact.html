@@ -61,63 +61,110 @@
         </script>
 
     
+<script type="module" src="./js/index.js"></script>
+    
 </head>
 <body>
-  <script type="module" src="./js/index.js"></script>
 
-  <section class="container mx-auto w-auto md:justify-center md:flex md:mt-60 overflow-hidden">
-
-        <div class="justify-center">
-            <img class="ml-16 max-w-screen-sm md:mr-80 justify-center" src="img/madurado.webp" alt="Logo da Madurado Developers">
-        </div>
-
-        <div class="md:ml-10">
-
-            <h3 class="text-center text-base font-epilogue font-bold py-1">Contato</h3>
-
-            <div>
-
-                <div class="mt-2">
-                    <a href="https://www.behance.net/maduradodev">
-                        <img class="w-12 ml-16" src="img/behance.svg" alt="Behance">
-                        <h3 class="text-center text-sm font-epilogue font-light py-1" itemprop="description">Madurado Developers</h3>
-                    </a>
-                </div>
-
-                <div class="mt-2">
-                    <a href="https://www.behance.net/maduradodev">
-                        <img class="w-8 ml-16" src="img/instagram.svg" alt="Behance">
-                        <h3 class="text-center text-sm font-epilogue font-light py-1" itemprop="description">@madurado.dev</h3>
-                    </a>
-                </div>
-
-                <div class="mt-2">
-                    <a href="https://www.behance.net/maduradodev">
-                        <img class="w-8  ml-16" src="img/facebook.svg" alt="Behance">
-                        <h3 class="text-center text-sm font-epilogue font-light py-1" itemprop="description">Madurado Developers</h3>
-                    </a>
-                </div>
-
-                <div class="mt-2">
-                    <a href="mailTo:madurado.dev@gmail.com">
-                        <img class="w-8  ml-16" src="img/mail.svg" alt="Behance">
-                        <h3 class="text-center text-sm font-epilogue font-light py-1" itemprop="description">madurado.dev@gmail.com</h3>
-                    </a>
-                </div>
-
-            </div>
+  <nav class="backdrop-blur-sm bg-black/10 border-gray-200 p-2 fixed w-full z-10 top-0 ">
+    <div class="container flex flex-wrap justify-between items-center mx-auto">
+      <a href="index.html" class="flex items-center">
+          <img src="./img/madurado.webp" class="ml-36 sm:ml-12 h-16 sm:h-10"/>
+      </a>
+        <h3 class="text-sm font-epilogue font-light block ml-20 md:mr-96">WEBSITE EM DESENVOLVIMENTO</h3>
+      <div class="w-full md:block md:w-auto">
+        <ul class="flex mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+            
             
 
-
-                <a href="index.html" class="py-1">
-                    <button class="ml-36 md:ml-24 mt-2 bg-transparent border-2 border-black text-black font-epilogue font-light py-1 px-4 rounded-3xl">VOLTAR</button>
+            <li>
+                <a href="index.html" class="block py-2 pr-4 pl-3 md:pr-1 md:pl-1">
+                    <button class="bg-transparent border-2 border-white hover:border-black w-24 h-9 text-black font-epilogue font-light rounded-3xl">HOME</button>
                 </a>
-        
+            </li>
+
+            <li>
+                 <a href="about.html" class="block py-2 pr-4 pl-3 md:pr-1 md:pl-1">
+                    <button class="bg-transparent border-2 border-white hover:border-black w-24 h-9 text-black font-epilogue font-light rounded-3xl">SOBRE</button>
+                </a>
+            </li>
+
+            <li>
+                <a href="contact.html" class="block py-2 pr-4 pl-3 md:pr-1 md:pl-1" aria-current="CONTATO">
+                   <button class="bg-transparent border-2 border-black hover:border-black w-24 h-9 text-black font-epilogue font-light rounded-3xl">CONTATO</button>
+               </a>
+           </li>
+
+            
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container grid mx-auto w-auto md:justify-center mt-56 flex md:mt-40">
+
+    <div>
+      <h1 class="text-center text-2xl md:text-xl font-epilogue font-bold" itemprop="name">Quer entrar em <br>contato?</h1>
+    </div>
+
+    <div class="md:flex">
+
+    <div class="">
+      <div class="mt-8 md:mr-96">
+
+        <div class="grid place-content-center gap-6 flex items-center">
+
+          <label class="block">
+            <span class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Nome Completo:</span>
+            <input type="text" name="nome" class=" mt-1 block h-10 w-96 rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0" maxlength="30" disabled placeholder=""/>
+          </label>
+
+          <label class="block">
+            <span class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">E-mail:</span>
+            <input type="text" name="nome" class=" mt-1 block h-10 w-96 rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0" maxlength="30" disabled placeholder=""/>
+          </label>
+
+          <label class="block">
+            <span class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">Solicitação:</span>
+            <textarea type="text" name="solicitacao" class=" mt-1 block min-h-20 max-h-20 w-96 rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0" disabled placeholder=""></textarea>
+          </label>
+
         </div>
-        
+      </div>
+    </div>
 
-        
+    <div>
 
+      <div class="mt-14 md:mt-14">
+          <a href="https://www.behance.net/maduradodev">
+              <img class="w-12 ml-16" src="img/behance.svg" alt="Behance">
+              <h3 class="text-center text-sm font-epilogue font-light py-1" itemprop="description">Madurado Developers</h3>
+          </a>
+      </div>
+
+      <div class="mt-2">
+          <a href="https://www.behance.net/maduradodev">
+              <img class="w-8 ml-16" src="img/instagram.svg" alt="Behance">
+              <h3 class="text-center text-sm font-epilogue font-light py-1" itemprop="description">@madurado.dev</h3>
+          </a>
+      </div>
+
+      <div class="mt-2">
+          <a href="https://www.behance.net/maduradodev">
+              <img class="w-8  ml-16" src="img/facebook.svg" alt="Behance">
+              <h3 class="text-center text-sm font-epilogue font-light py-1" itemprop="description">Madurado Developers</h3>
+          </a>
+      </div>
+
+      <div class="mt-2">
+          <a href="mailTo:madurado.dev@gmail.com">
+              <img class="w-8  ml-16" src="img/mail.svg" alt="Behance">
+              <h3 class="text-center text-sm font-epilogue font-light py-1" itemprop="description">madurado.dev@gmail.com</h3>
+          </a>
+      </div>
+
+  </div>
+  </div>
 
     </section>
 

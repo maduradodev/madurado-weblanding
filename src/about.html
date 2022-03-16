@@ -65,95 +65,137 @@
 <body>
   <script type="module" src="./js/index.js"></script>
 
-  <section class="container mx-auto w-auto md:justify-center md:flex md:mt-60 overflow-hidden">
+  <nav class="backdrop-blur-sm bg-black/10 border-gray-200 p-2 fixed w-full z-10 top-0 ">
+    <div class="container flex flex-wrap justify-between items-center mx-auto">
+      <a href="index.html" class="flex items-center">
+          <img src="./img/madurado.webp" class="ml-36 sm:ml-12 h-16 sm:h-10"/>
+      </a>
+        <h3 class="text-sm font-epilogue font-light block ml-20 md:mr-96">WEBSITE EM DESENVOLVIMENTO</h3>
+      <div class="w-full md:block md:w-auto">
+        <ul class="flex mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+            
+            
 
-        <div class="justify-center">
-            <img class="ml-16 max-w-screen-sm md:mr-80 justify-center" src="img/madurado.webp" alt="Logo da Madurado Developers">
-        </div>
+            <li>
+                <a href="index.html" class="block py-2 pr-4 pl-3 md:pr-1 md:pl-1">
+                    <button class="bg-transparent border-2 border-white hover:border-black w-24 h-9 text-black font-epilogue font-light rounded-3xl">HOME</button>
+                </a>
+            </li>
 
-        <div class="md:ml-10">
-            <h3 class="text-center text-base font-epilogue font-bold py-1">Sobre Nós</h3>
-        
-            <div class="flex bg-white/50 rounded-lg h-24 w-72 py-2 ml-11 md:ml-0">
+            <li>
+                 <a href="about.html" class="block py-2 pr-4 pl-3 md:pr-1 md:pl-1" aria-current="SOBRE">
+                    <button class="bg-transparent border-2 border-black hover:border-black w-24 h-9 text-black font-epilogue font-light rounded-3xl">SOBRE</button>
+                </a>
+            </li>
 
-                <div class="">
-        
-                    <img class="w-16 absolute mt-2 ml-7" src="img/eduardoPFP.webp" alt="Avatar Eduardo Talanski">
-                    <h1 class="absolute ml-28 mt-2 text-base font-epilogue font-bold" itemprop="name">Eduardo Talanski</h1>
-                    <h2 class="absolute ml-28 mt-7 text-xs font-epilogue font-light" itemprop="description">Front-end Developer</h2>
-                
-                </div>
-        
-                <div class="flex relative ml-28 mt-14">
-        
-                        <div>
-                            <a href="https://www.behance.net/eduardotalanski">
-                                <img class="w-6" src="img/behance.svg" alt="Behance">
-                            </a>
-                            </div>
-        
-                        <div>
-                            <a href="https://www.instagram.com/e_talanski/">
-                                <img class="w-4 ml-2" src="img/instagram.svg" alt="Instagram">
-                            </a>
-                            </div>
-        
-                            <div>
-                                <a href="mailTo:talanski@madurado.tech">
-                                    <img class="w-5 ml-2" src="img/mail.svg" alt="Email">
-                                </a>
-                                </div>
-        
-                </div>
-        
-            </div>
+            <li>
+                <a href="contact.html" class="block py-2 pr-4 pl-3 md:pr-1 md:pl-1">
+                   <button class="bg-transparent border-2 border-white hover:border-black w-24 h-9 text-black font-epilogue font-light rounded-3xl">CONTATO</button>
+               </a>
+           </li>
 
-            <div class="flex bg-white/50 rounded-lg h-24 w-72 py-2 ml-11 mt-2 md:ml-0">
+            
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-                <div class="">
-        
-                    <img class="w-16 absolute mt-2 ml-7" src="img/calebhPFP.webp" alt="Avatar Eduardo Talanski">
-                    <h1 class="absolute ml-28 mt-2 text-base font-epilogue font-bold" itemprop="name">Matheus Calebh</h1>
-                    <h2 class="absolute ml-28 mt-7 text-xs font-epilogue font-light" itemprop="description">Fullstack Developer</h2>
-                
-                </div>
-        
-                <div class="flex relative ml-28 mt-14">
-        
-                        <div>
-                            <a href="https://www.behance.net/matheusvillano">
-                                <img class="w-6" src="img/behance.svg" alt="Behance">
-                            </a>
-                            </div>
-        
-                        <div>
-                            <a href="https://www.instagram.com/mwtheusz/">
-                                <img class="w-4 ml-2" src="img/instagram.svg" alt="Instagram">
-                            </a>
-                            </div>
-        
-                            <div>
-                                <a href="mailTo:">
-                                    <img class="w-5 ml-2" src="img/mail.svg" alt="Email">
-                                </a>
-                                </div>
-        
-                </div>
-        
-            </div>
+  <section class="container mx-auto w-auto md:justify-center mt-44 md:flex md:mt-52">
 
-
-            <a href="index.html" class="py-1">
-                <button class="ml-36 md:ml-24 mt-2 bg-transparent border-2 border-black text-black font-epilogue font-light py-1 px-4 rounded-3xl">VOLTAR</button>
-            </a>
-        
+        <div class="grid justify-center">
+            <img src="./img/madurado.webp" class="ml-48 md:ml-72 h-8 sm:h-10 animate-bounce"/>
+            <h2 class="text-center text-base font-epilogue font-normal py-1">Fundada em 2021, a </h2>
+            <h1 class="text-center text-4xl md:text-6xl font-epilogue font-bold" itemprop="name">Madurado <br>Developers</h1>
+            <h2 class="text-center text-base font-epilogue font-normal py-1" itemprop="description">tem como norte trazer inovação, agilidade e comprometimento, visando assim </h2>
+            <h2 class="text-center text-base font-epilogue font-normal py-1" itemprop="description">um contínuo crescimento e evolução junto aos nossos clientes.</h2>
         </div>
         
+  </section>
 
+  <section class="container mx-auto w-auto md:justify-center mt-48 md:mt-60">
+    <div>
+        <h1 class="text-center text-2xl md:text-4xl font-epilogue font-bold">Nossos Devs</h1>
+    </div>
+
+    <div class="flex mt-20 md:ml-7">
+
+        <div class="flex ml-20 md:ml-80 ">
+            <div class="bg-white/80 border-white border-2 rounded-br-3xl rounded-bl-3xl shadow-md shadow-gray-200 h-72 w-64 absolute -z-10 mt-10"></div>
+            <div>
+                <img class="w-24 absolute ml-20 shadow-md shadow-gray-600 rounded-full" src="img/eduardoPFP.webp" alt="Avatar Eduardo Talanski">
+                <h1 class="text-1xl md:text-xl font-epilogue font-bold absolute mt-28 ml-10">Eduardo Talanski</h1>
+                <h3 class="text-1xl md:text-sm font-epilogue font-normal absolute ml-20" style="margin-top:8.3rem;">São Paulo - SP</h3>
+                <h2 class="text-1xl md:text-base font-epilogue font-bold absolute mt-44 ml-11">Front-end Developer</h2>
+
+                <div class="flex absolute" style="margin-top:9.6rem; margin-left:5.5rem;">
         
+                  <div>
+                      <a href="https://www.behance.net/eduardotalanski">
+                          <img class="w-6" src="img/behance.svg" alt="Behance">
+                      </a>
+                      </div>
+  
+                  <div>
+                      <a href="https://www.instagram.com/e_talanski/">
+                          <img class="w-4 ml-2" src="img/instagram.svg" alt="Instagram">
+                      </a>
+                      </div>
+  
+                      <div>
+                          <a href="mailTo:talanski@madurado.tech">
+                              <img class="w-5 ml-2" src="img/mail.svg" alt="Email">
+                          </a>
+                          </div>
+  
+              </div>
 
+                <h2 class="text-1xl md:text-sm font-epilogue font-normal absolute" style="margin-top:12.8rem; margin-left:4.5rem;">Competências:</h2>
+                <img src="img/compEd.webp" class="w-24 absolute mt-60" style="margin-left:4.8rem;">
+            </div>
+        </div>
 
-    </section>
+        <div class="flex mt-96 md:mt-0 md:ml-80">
+          <div class="bg-white/80 border-white border-2 rounded-br-3xl rounded-bl-3xl shadow-md shadow-gray-200 h-72 w-64 absolute -z-10 mt-10"></div>
+            <div>
+                <img class="w-24 absolute ml-20 shadow-md shadow-gray-600 rounded-full" src="img/calebhPFP.webp" alt="Avatar Matheus Calebh">
+                <h1 class="text-1xl md:text-xl font-epilogue font-bold absolute mt-28 ml-10">Matheus Calebh</h1>
+                <h3 class="text-1xl md:text-sm font-epilogue font-normal absolute ml-20" style="margin-top:8.3rem;">São Paulo - SP</h3>
+                <h2 class="text-1xl md:text-base font-epilogue font-bold absolute mt-44 ml-11">Fullstack Developer</h2>
+
+                <div class="flex absolute" style="margin-top:9.6rem; margin-left:5.5rem;">
+        
+                  <div>
+                      <a href="https://www.behance.net/matheusvillano">
+                          <img class="w-6" src="img/behance.svg" alt="Behance">
+                      </a>
+                      </div>
+  
+                  <div>
+                      <a href="https://www.instagram.com/mwtheusz/">
+                          <img class="w-4 ml-2" src="img/instagram.svg" alt="Instagram">
+                      </a>
+                      </div>
+  
+                      <div>
+                          <a href="mailTo:">
+                              <img class="w-5 ml-2" src="img/mail.svg" alt="Email">
+                          </a>
+                          </div>
+  
+          </div>
+
+                <h2 class="text-1xl md:text-sm font-epilogue font-normal absolute" style="margin-top:12.8rem; margin-left:4.5rem;">Competências:</h2>
+                <img src="img/compCb.webp" class="w-24 absolute mt-60" style="margin-left:4.8rem;">
+            </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="container mx-auto w-auto md:justify-center mt-48 md:mt-96">
+  </section>
+
 
 </body>
 
