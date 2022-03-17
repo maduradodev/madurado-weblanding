@@ -3,9 +3,10 @@ module.exports = {
     theme: {
         extend: {
           fontFamily: {
-            'epilogue': ['Epilogue', 'sans-serif'] 
+            'epilogue': ['Montserrat', 'sans-serif'] 
           },
         },
       },
-    plugins: [],
+    plugins: [
+    ],
 }
