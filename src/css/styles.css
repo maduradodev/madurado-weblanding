@@ -9,7 +9,7 @@
   html{
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    background-image: url('../img/back.jpg');
+    background-image: url('../img/bg.webp');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
