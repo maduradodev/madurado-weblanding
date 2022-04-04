@@ -4,7 +4,7 @@ const { resolve } = require('path');
 export default {
     // config options
     root: './src',
-    base: 'http://project.madurado.tech/tailwind/',
+    base: './',
     build: {
         rollupOptions: {
             input: {
